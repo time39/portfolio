@@ -1,24 +1,80 @@
-.page {
-  width: 100%;
-  heigth: 100%;
-  position: absolute;
-}
+.App {
+  position: center;
 
-.top-tags {
-  bottom: auto;
-  top: 35px;
-}
+  section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
 
-.tags {
-  color: #000000;
-  opacity: 0.6;
-  position: absolute;
-  bottom: 0;
-  left: 120px;
-  font-size: 18px;
-  font-family: 'La Belle Aurore';
-}
+    .banner{
+      width: 100%;
+      display: flex;
+      margin-right: 30%;
+      font-size: 42pt;
+      font-family: 'Coolvetica';
+      color: gold;
+    }
+    .title{
+      margin-top: 10%;
+    }
+    .description{
+       font-family: 'La Belle Aurore';
+      font-size: 35pt;
+     }
+  }
 
-.bottom-tag-html{
-  margin-left: -20px;
+  .fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }

@@ -1,0 +1,23 @@
+.about{
+    justify-content: center;
+
+    .hello{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+        padding: 100px 20vw;
+        background: red;
+    }
+
+    .red{
+        background: red;
+    }
+}
